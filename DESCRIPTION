@@ -1,0 +1,22 @@
+Package: rsclass
+Title: Manipulate RStudio Cloud Workspaces
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "James Joseph",
+           family = "Balamuta",
+           role = c("aut", "cre", "cph"),
+           email = "balamut2@illinois.edu",
+           comment = c(ORCID = "0000-0003-2826-8458"))
+Description: Provides tools to manipulate RStudio Cloud workspaces and projects.
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    rscloud (>= 0.0.0.9000),
+    purrr
+Remotes: 
+    rstudio/rscloud
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Suggests: 
+    covr
